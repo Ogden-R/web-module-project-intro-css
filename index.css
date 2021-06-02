@@ -43,7 +43,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    
     }
 
 /*General Styles (great to use until you have a preference)*/
@@ -56,6 +56,7 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    
 }
 
 h1{
@@ -75,23 +76,31 @@ nav{
 nav a{
     display:inline-block;
     padding:1% 0;
-    width:10%;
+    width:20%;
     border-radius:10px;
     text-align:center;
     color:#fff;
 }
+nav a:hover{
+    transition:2s;
+    background-color:#fff;
+    color:#4f4f4f;
+    text-transform:capitalize;
+    font-weight:bold;
+    border:1px solid #4f4f4f
 
+}
 .orange{
     background-color:#FF764E;
-    margin-left:10%;
+    margin-left:7%;
 }
 .blue{
     background-color:#5ED3EB;
-    margin:0 24%;
+    margin:auto 12%;
 }
 .yellow{
     background-color:#FFCD69;
-    margin-right:10%;
+    margin-right:7%;
 }
 /*Top Section Styles*/
 
@@ -109,17 +118,55 @@ nav a{
 .left{
     width:40%;
 }
-
 .right{
     width:45%; 
     margin-left:3%;
     position:absolute;
     top:40%;
 }
+.right h2{
+    margin:5%;
+}
 /*background image section*/
 .heroImg{
-    height:40vh;
+    height:50vh;
     background-image:url('assets/footer_img.jpg');
     background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+footer{
+    background-color:#f9e7dc;
+}
+/*main body section*/
+.main{
+    background-color:#DDB9A3;
+    padding:1% 2%;
+    margin:0 auto;
+    width: 95%;
+    border:0;
+    text-align:center;
+    color:white;
+    font-size:2rem;
+}
+.main p{
+    padding:1% auto;
     
+}
+#one{
+    margin-bottom:2%
+}
+/*clipart section*/
+.icons{
+    padding:auto;
+    text-align:center;
+    margin:0 auto;
+    font-size:1.5rem;;
+}
+.icons img{
+    width:15%;
+    
+}.icons p{
+    width:30%;
+    margin:0 auto;
 }
